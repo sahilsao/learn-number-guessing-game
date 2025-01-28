@@ -55,3 +55,6 @@ psql -U postgres < number_guess.sql
 ./number_guess.sh
 cd ..
 git add .
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+git commit -m "fix: code"
+git add .
