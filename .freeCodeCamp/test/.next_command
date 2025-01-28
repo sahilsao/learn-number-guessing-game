@@ -17,3 +17,12 @@ git init
 cd ..
 git add .
 git commit -m "Initial commit"
+cd number_guessing_game
+git commit -m "Initial commit"
+git add .
+git commit -m "Initial commit"
+cd ..
+psql -U postgres < number_guess.sql
+cd number_guessing_game
+psql -U postgres < number_guess.sql
+cd ..
