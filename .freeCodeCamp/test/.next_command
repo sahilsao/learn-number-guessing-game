@@ -53,3 +53,4 @@ cd ..psql -U postgres < number_guess.sql
 cd psql -U postgres < number_guess.sql
 psql -U postgres < number_guess.sql
 ./number_guess.sh
+cd ..
