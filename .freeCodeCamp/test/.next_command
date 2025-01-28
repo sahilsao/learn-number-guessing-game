@@ -11,3 +11,8 @@ touch number_guess.sql
 chmod +x number_guess.sh
 cd ..
 git add .
+git commit -m "Initial commit"
+cd number_guessing_game
+git init
+cd ..
+git add .
