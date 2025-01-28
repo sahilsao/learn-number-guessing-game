@@ -71,5 +71,3 @@ GAME() {
     fi
   done
 }
-
-DISPLAY

@@ -26,3 +26,13 @@ psql -U postgres < number_guess.sql
 cd number_guessing_game
 psql -U postgres < number_guess.sql
 cd ..
+cd number_guessing_game
+git add .
+git add .
+git commit -m "fix: code"
+git add .
+git commit -m "fix: code"
+git add .
+git commit -m "fix: code"
+git add .
+git commit -m "fix: code"
