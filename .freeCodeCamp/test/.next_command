@@ -82,3 +82,4 @@ cd ..
 git add .
 git commit -m "fix: code"
 git add .
+git commit -m "feat: added code"
