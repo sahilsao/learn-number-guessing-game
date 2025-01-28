@@ -58,3 +58,14 @@ git add .
 pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
 git commit -m "fix: code"
 git add .
+git commit -m "fix: code"
+git switch main
+git push
+cd number_guessing_game
+git add .
+git commit -m 'end code'
+git push
+git switch main
+cd ..
+git switch main
+git push
