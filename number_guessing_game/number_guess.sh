@@ -72,4 +72,4 @@ GAME() {
   done
 }
 
-DISPLAY
+DISPLAY 
