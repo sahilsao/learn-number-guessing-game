@@ -71,3 +71,5 @@ GAME() {
     fi
   done
 }
+
+DISPLAY
