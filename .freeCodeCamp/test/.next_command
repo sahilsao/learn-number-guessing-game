@@ -39,3 +39,17 @@ git commit -m "fix: code"
 git add .
 git commit -m "fix: code"
 cd ..
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+cd number_guessing_game
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+psql -U postgres < number_guess.sql
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+./number_guess.sh
+psql --username=freecodecamp --dbname=number_guess
+cd ..
+psql --username=freecodecamp --dbname=number_guess
+cd number_guessing_game
+cd ..psql -U postgres < number_guess.sql
+cd psql -U postgres < number_guess.sql
+psql -U postgres < number_guess.sql
+./number_guess.sh
